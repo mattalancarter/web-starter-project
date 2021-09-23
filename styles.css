@@ -1,0 +1,92 @@
+/*variables*/
+:root {
+  --margin-tb: 50px;
+  --margin-1: 150px;
+  --margin-2: 175px;
+  --margin-3: 200px;
+  --margin-4: 225px;
+}
+/*basic dimensions*/
+html,
+body {
+  height: 800;
+  width: 1200;
+}
+/*links*/
+a {
+  color: #0000ff;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff00ff;
+  text-decoration: underline;
+}
+a:active {
+  color: #ffff00;
+}
+a:visited {
+  text-decoration: line-through;
+}
+/*name*/
+h1 {
+  font-family: "Times New Roman", serif;
+  font-size: 50pt;
+  font-weight: normal;
+  line-height: 40pt;
+  margin-left: var(--margin-1);
+  margin-top: var(--margin-tb);
+  margin-right: var(--margin-1);
+  margin-bottom: 30pt;
+  transform: scale(0.85, 1);
+  transform-origin: left;
+}
+/*section titles*/
+h2 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 18pt;
+  font-weight: bold;
+  margin-left: var(--margin-2);
+  margin-right: var(--margin-1);
+  margin-top: 20pt;
+  text-transform: uppercase;
+}
+/*locations and employers*/
+h3 {
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+  margin-left: var(--margin-3);
+  margin-right: var(--margin-1);
+}
+/*timeline*/
+h4 {
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+  margin-left: var(--margin-3);
+  margin-right: var(--margin-1);
+  margin-top: 15pt;
+  margin-bottom: 5pt;
+  text-transform: uppercase;
+}
+/*personal info copy and roles*/
+.subtitle {
+  font-family: "Helvetica", sans-serif;
+  font-size: 12pt;
+  margin-left: var(--margin-4);
+  margin-right: var(--margin-1);
+  margin-top: 5pt;
+  margin-bottom: 5pt;
+  text-transform: uppercase;
+}
+/*descriptions*/
+.description {
+  font-family: "Helvetica", sans-serif;
+  font-size: 12pt;
+  margin-left: var(--margin-4);
+  margin-right: var(--margin-1);
+  margin-top: 5pt;
+  max-width: 900px;
+}
+/*footer*/
+.footer {
+  height: var(--margin-tb);
+}
