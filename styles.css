@@ -29,16 +29,29 @@ a:visited {
 }
 /*name*/
 h1 {
+  background-color: white;
   font-family: "Times New Roman", serif;
   font-size: 50pt;
   font-weight: normal;
   line-height: 40pt;
   margin-left: var(--margin-1);
-  margin-top: var(--margin-tb);
   margin-right: var(--margin-1);
-  margin-bottom: 30pt;
+  padding-top: var(--margin-tb);
   transform: scale(0.85, 1);
   transform-origin: left;
+  width: 100%;
+}
+.name {
+  position: -webkit-sticky; /*browser compatibility*/
+  position: sticky;
+  top: 0px;
+}
+.namefooter {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+  height: 30pt;
 }
 /*section titles*/
 h2 {
